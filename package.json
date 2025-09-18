@@ -1,0 +1,14 @@
+{
+  "name": "plisttojson",
+  "version": "1.0.0",
+  "description": "用于把TexturePacker输出的plist转换为pixijs可用的json",
+  "license": "MIT",
+  "author": "ozg",
+  "main": "main.js",
+  "scripts": {
+    "go": "node main.js"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  }
+}
