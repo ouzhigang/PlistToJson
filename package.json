@@ -1,14 +1,15 @@
 {
   "name": "plisttojson",
   "version": "1.0.0",
-  "description": "用于把TexturePacker输出的plist合并图转换为Pixijs的Spritesheet专用json格式",
+  "description": "用于把TexturePacker输出的plist合并图转换为别的格式",
   "license": "MIT",
   "author": "ozg",
   "main": "main.js",
   "scripts": {
-    "go": "node main.js"
+    "pixijs": "node pixijs.js",
+    "phaser": "node phaser.js"
   },
   "dependencies": {
-    "xml2js": "^0.6.2"
+    "plist": "^3.1.0"
   }
 }

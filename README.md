@@ -3,7 +3,12 @@
 npm i
 ```
 
-使用方法：
+转为phaser的格式：
 ```shell
-npm run go ./test.plist
+npm run phaser ./test.plist
+```
+
+转为pixijs的格式：
+```shell
+npm run pixijs ./test.plist
 ```
